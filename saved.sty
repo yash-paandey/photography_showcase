@@ -1,2 +1,71 @@
 font-family: "Arvo", serif;
 https://colorhunt.co/palette/257180f2e5bffd8b51cb6040 //colorpallet
+
+
+
+how to github basics :
+To upload your project to GitHub from the command line in VS Code, follow these steps:
+
+### Prerequisites:
+- Install **Git** on your system if you haven't already.
+- Create a **GitHub account** and a new repository for your project.
+- Set up **SSH keys** (optional but recommended for secure access without passwords).
+
+### Step-by-Step Process:
+
+#### 1. **Open VS Code and Initialize Git**
+- Open your project folder in VS Code.
+- Open the **Terminal** in VS Code (`Ctrl + `).
+- Initialize a Git repository (if not already initialized):
+    ```bash
+    git init
+    ```
+
+#### 2. **Stage Your Files**
+- Add all the files in your project to the staging area:
+    ```bash
+    git add .
+    ```
+    - The `.` stages all files. You can also specify individual files by name.
+
+#### 3. **Commit the Changes**
+- Commit your staged changes with a meaningful commit message:
+    ```bash
+    git commit -m "Initial commit"
+    ```
+
+#### 4. **Create a New GitHub Repository**
+- Go to GitHub and create a **new repository**.
+    - Name it something relevant to your project.
+    - You can choose to initialize it with a README or leave it empty.
+
+#### 5. **Connect Your Local Repository to GitHub**
+- Copy the **URL** of the new GitHub repository (HTTPS or SSH).
+- Link your local project to the GitHub repository using this command:
+    ```bash
+    git remote add origin <your-repo-url>
+    ```
+    - Replace `<your-repo-url>` with the copied repository URL.
+
+#### 6. **Push Your Project to GitHub**
+- Push your changes to GitHub using the following command:
+    ```bash
+    git push -u origin master
+    ```
+    - The `-u` flag sets the `origin` remote and `master` branch for future pushes.
+
+#### 7. **Check Your Repository on GitHub**
+- Go to your GitHub repository URL, and you should see your project files uploaded.
+
+### Additional Commands:
+- **To push changes after making new commits**:
+    ```bash
+    git push
+    ```
+
+- **To pull updates from the repository** (if you or others make changes on GitHub):
+    ```bash
+    git pull
+    ```
+
+Let me know if you encounter any issues!
