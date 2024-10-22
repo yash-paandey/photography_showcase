@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+body{
+    background-color: #257180;
+}
+
+*{
+    margin: 10px 10px;
+    padding: 0;
+}
+
+nav {
+    
+    
+    font-family:"Arvo", serif;
+    
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    color: rgb(255, 255, 255);
+    background-color: #F2E5BF;
+    font-size: 35px;
+    border-radius: 35px;
+    justify-content: center; /*used for making the content in the center*/
+    
+    
+}
+
+nav ul li{ /*for changing the content spacing , color etc )*/
+    padding: 10px 70px;
+    background-color: #CB6040;
+    border-radius: 35px;
+}
+nav ul li:hover {
+    background-color: rgb(34, 77, 21);
+    cursor: pointer; /* Changes the cursor to indicate it's clickable */
+}
+
+.container{
+    min-height: 60vh;
+    background-color: #F2E5BF;
+    color: #000000;
+    display: flex;
+    margin: 10px 10px;
+    
+    border-radius: 35px;
+    padding: 80px;
+}
+
+.personalimage{
+    background-image:url(pfp.jpg);
+    width: 1000px; /* Adjust to your preferred width */
+    height: 500px; /* Adjust to your preferred height */
+    border-radius: 35px;
+    filter: grayscale(100%);
+    border: 5px dashed rgb(239, 216, 48); 
+    border-radius: 35px;
+}
+
+.randomintro{
+    background-color:#257180;
+    width: 1500px; /* Adjust to your preferred width */
+    height: 500px; /* Adjust to your preferred height */
+    border-radius: 35px;
+    color: white;
+    font-size: 50px;
+}
