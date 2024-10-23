@@ -20,7 +20,7 @@ nav ul{
     display: flex;
     align-items: center;
     list-style-type: none;
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     background-color: #F2E5BF;
     font-size: 35px;
     border-radius: 35px;
@@ -67,4 +67,91 @@ nav ul li:hover {
     border-radius: 35px;
     color: white;
     font-size: 50px;
+}
+
+.heading {
+    font-size: 70px;
+    margin-bottom: 20px;
+    color: #333;
+    
+}
+.imagepanel{
+    min-height: 60vh;
+    background-color: #F2E5BF;
+    color: #000000;
+    display: flex;
+    
+    height: 150vh;
+    
+    border-radius: 35px;
+    padding: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+.image1{
+    width: 433px; /* Adjust to your preferred width */
+    height: 160vh; /* Adjust to your preferred height */ 
+    border-radius: 35px;
+    padding: 2px 2px;
+    margin-left: 5px;
+    
+}
+
+.image1 img{
+    width: 433px; /* Adjust to your preferred width */
+    height: 160vh; /* Adjust to your preferred height */ 
+    border-radius: 35px;
+    object-fit: cover;
+}  
+
+.image2{
+    width: 433px; /* Adjust to your preferred width */
+    height: 160vh; /* Adjust to your preferred height */ 
+    border-radius: 35px;
+}
+
+.image2 img{
+    width: 433px; /* Adjust to your preferred width */
+    height: 160vh; /* Adjust to your preferred height */ 
+    border-radius: 35px;
+}
+.image3{
+    width: 433px; /* Adjust to your preferred width */
+    height: 160vh; /* Adjust to your preferred height */ 
+    border-radius: 35px;
+}
+
+.image3 img{
+    width: 433px; /* Adjust to your preferred width */
+    height: 160vh; /* Adjust to your preferred height */ 
+    border-radius: 35px;
+}
+.no-change {
+    color: rgb(255, 255, 255); /* Set your desired link color */
+    text-decoration: none; /* Remove underline (optional) */
+}
+
+.no-change:visited {
+    color: rgb(255, 255, 255); /* Set the visited link color */
+}
+
+.no-change:hover {
+    color: rgb(255, 255, 255); /* Set the hover link color */
+}
+
+.no-change:active {
+    color: rgb(255, 255, 255); /* Set the active link color */
+}
+
+/*Gallery css*/
+.gallery-background{
+    min-height: 400vh;
+    background-color: #F2E5BF;
+    color: #000000;
+    display: flex;
+    margin: 10px 10px;
+    
+    border-radius: 35px;
+    padding: 80px;
 }
