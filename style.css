@@ -57,10 +57,11 @@ nav ul li:hover {
 .randomintro{
     background-color:#257180;
     width: 1500px;
-    height: 500px;
+    height: 350px;
     border-radius: 35px;
     color: white;
     font-size: 50px;
+    padding: 80px;
 }
 
 .heading {
@@ -81,44 +82,21 @@ nav ul li:hover {
     justify-content: center;
 }
 
-.image1{
-    width: 433px;
-    height: 160vh;
-    border-radius: 35px;
-    padding: 2px 2px;
-    margin-left: 5px;
-}
 
-.image1 img{
-    width: 433px;
-    height: 160vh;
-    border-radius: 35px;
-    object-fit: cover;
-}
 
 .image2{
-    width: 433px;
+    width: 833px;
     height: 160vh;
     border-radius: 35px;
 }
 
 .image2 img{
-    width: 433px;
-    height: 160vh;
+    width: 833px;
+    height: 130vh;
     border-radius: 35px;
 }
 
-.image3{
-    width: 433px;
-    height: 160vh;
-    border-radius: 35px;
-}
 
-.image3 img{
-    width: 433px;
-    height: 160vh;
-    border-radius: 35px;
-}
 
 .no-change {
     color: rgb(255, 255, 255);
